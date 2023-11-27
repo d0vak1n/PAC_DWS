@@ -12,6 +12,8 @@
 
 		include "funciones.php";
 
+		pintaTablaUsuarios();
+
 	?>
 
 </body>
