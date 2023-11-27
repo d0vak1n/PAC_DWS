@@ -30,8 +30,8 @@
 
 	<h1>Lista de artículos</h1>
 
-	<?php pintaProductos($orden) ?>
-	<?php
+	<?php 
+	pintaProductos($orden);
 	// Mostrar enlaces adicionales si el usuario tiene los permisos de la aplicación activados
 	if ($tipoUsuario == 'superadmin') {
 		echo "<p><a href='formArticulo.php?action=anadir'>Añadir nuevo producto</a></p>";
